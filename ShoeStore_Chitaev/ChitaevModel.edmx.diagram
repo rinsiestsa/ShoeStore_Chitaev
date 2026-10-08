@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="59634926392d4ddcb1a75b4378340d9c" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="ShoeStore_ChitaevModel.Categories" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeStore_ChitaevModel.Employees" Width="1.5" PointX="2.875" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeStore_ChitaevModel.Manufacturers" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeStore_ChitaevModel.Order_Details" Width="1.5" PointX="5.375" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeStore_ChitaevModel.Order_Status" Width="1.5" PointX="5.125" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeStore_ChitaevModel.Orders" Width="1.5" PointX="5.375" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeStore_ChitaevModel.Point" Width="1.5" PointX="7.5" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeStore_ChitaevModel.Products" Width="1.5" PointX="3.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeStore_ChitaevModel.Roles" Width="1.5" PointX="0.875" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeStore_ChitaevModel.Suppliers" Width="1.5" PointX="1" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeStore_ChitaevModel.sysdiagrams" Width="1.5" PointX="7.25" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="ShoeStore_ChitaevModel.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoeStore_ChitaevModel.FK_Employees_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoeStore_ChitaevModel.FK_Orders_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoeStore_ChitaevModel.FK_Products_Manufacturers" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoeStore_ChitaevModel.FK_OrderDetails_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoeStore_ChitaevModel.FK_OrderDetails_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoeStore_ChitaevModel.FK_Orders_Order_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoeStore_ChitaevModel.FK_Orders_Point" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoeStore_ChitaevModel.FK_Products_Suppliers" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
